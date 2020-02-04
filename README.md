@@ -1,7 +1,8 @@
-# ClickSend notifications channel for Laravel 5.4+
+# ClickSend notifications channel for Laravel 5.6 & 6.0+
 
 This package makes it easy to send notifications using [clicksend.com](//clicksend.com) with Laravel 5.6+ & 6.0+
-Uses ClickSend PHP API wrapper [https://github.com/ClickSend/clicksend-php]
+Uses ClickSend PHP API wrapper [https://github.com/ClickSend/clicksend-php]  
+To report issues with this package install process or usage please go here: (https://github.com/gilbert-rehling/laravel-sms-clicksend-service/issues) and mention 'composer version' when reporting any problems
 
 ## Contents
 
@@ -20,7 +21,7 @@ Uses ClickSend PHP API wrapper [https://github.com/ClickSend/clicksend-php]
 
 Install the package via composer:
 ```bash
-composer require vladski/laravel-sms-clicksend
+composer require gilbert-rehling/laravel-sms-clicksend-upgrade
 ```
 
 Add the service provider to `config/app.php`:
@@ -233,7 +234,7 @@ $ composer test
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
-
+- [gilbert-rehling](https://github.com/gilbert-rehling)
 - [vladski](https://github.com/vladski)
 - [All Contributors](../../contributors)
 
